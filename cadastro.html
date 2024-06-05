@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cadastro</h1>
+      <form action="register.php" method="POST">
+        <input type="text" name="username" placeholder="Nome de usuário" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="phone" placeholder="Telefone" required />
+        <input type="password" name="password" placeholder="Senha" required />
+        <input type="password" name="confirm_password" placeholder="Repetir senha" required />
+        <button type="submit" class="btn-pink">Cadastrar</button>
+      </form>
+      <p>Ou entre com <i class="fa fa-google"></i></p>
+    </div>
+  </body>
+</html>
